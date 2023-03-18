@@ -23,18 +23,18 @@ const Introduce = () => {
           </div>
         </div>
         <div className={classes['hero-img']}>
-          <img src="../../../public/logo.jpg" alt="" />
+          <img src="/images/logo.jpg" alt="" />
         </div>
       </div>
 
       <div className={classes['tech-skil']}>
         <span>Tech stack </span>
         <div className={classes['tech-img']}>
-          <img src="../../../public/logo_html.svg" alt="" />
-          <img src="../../../public/logo_css.svg" alt="" />
-          <img src="../../../public/logo_js.svg" alt="" />
-          <img src="../../../public/logo_react.svg" alt="" />
-          <img src="../../../public/logo_github.svg" alt="" />
+          <img src="/images/logo_html.svg" alt="" />
+          <img src="/images//logo_css.svg" alt="" />
+          <img src="/images/logo_js.svg" alt="" />
+          <img src="/images/logo_react.svg" alt="" />
+          <img src="/images/logo_github.svg" alt="" />
         </div>
       </div>
     </div>
