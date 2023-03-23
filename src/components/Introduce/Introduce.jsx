@@ -1,14 +1,15 @@
 import React from 'react';
 import classes from './Introduce.module.css';
+import Card from '../UI/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const Introduce = () => {
   return (
-    <div className={classes.container}>
+    <Card>
       <div className={classes.content}>
         <div className={classes.text}>
-          <h1>Front-end React Developer</h1>
+          <h1>Front-end React Developer 👋🏻</h1>
           <p>
             Hi, I'm Ekkasit ponkhunthod, Front-end React Developer in Nakhon
             Ratchasima, Thailand. 📍
@@ -37,7 +38,7 @@ const Introduce = () => {
           <img src="/images/logo_github.svg" alt="" />
         </div>
       </div>
-    </div>
+    </Card>
   );
 };
 
