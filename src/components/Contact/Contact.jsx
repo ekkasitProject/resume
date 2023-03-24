@@ -16,7 +16,8 @@ const Contact = () => {
           </span>
           <MdOutlineMailOutline className={classes.icon} />
           <span>
-            Location <p className={classes.detail}>Ekkasitprivate@gmail.com</p>
+            Mail
+            <p className={classes.detail}>Ekkasitprivate@gmail.com</p>
           </span>
         </div>
       </div>

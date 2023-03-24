@@ -7,7 +7,6 @@ const Project = () => {
       <div id="project" className={classes.container}>
         PORTFOLIO COMMING SOON 📍
       </div>
-      ;
     </Card>
   );
 };
