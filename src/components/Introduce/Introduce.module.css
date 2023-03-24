@@ -100,7 +100,7 @@
 
 @media (max-width: 768px) {
   .content {
-    margin: 15em 0 5em 0;
+    margin: 15rem 0 5em 0;
     flex-direction: column-reverse;
   }
   .text {
