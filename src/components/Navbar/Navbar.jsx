@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import classes from './Navbar.module.css';
 const Navbar = () => {
   return (
@@ -6,16 +7,48 @@ const Navbar = () => {
       <h3 className={classes.logo}>Ekkasit.dev</h3>
       <ul>
         <li>
-          <a href="#">Home</a>
+          <Link
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={1000}
+            to="hero"
+          >
+            Home
+          </Link>
         </li>
         <li>
-          <a href="#">About</a>
+          <Link
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={1000}
+            to="about"
+          >
+            About
+          </Link>
         </li>
         <li>
-          <a href="#">Project</a>
+          <Link
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={1000}
+            to="project"
+          >
+            Projects
+          </Link>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <Link
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={1000}
+            to="contact"
+          >
+            Contact
+          </Link>
         </li>
       </ul>
     </nav>
