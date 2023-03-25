@@ -46,7 +46,7 @@
   .logo {
     position: relative;
     top: 0px;
-    right: 30%;
+    right: 32%;
   }
   .navbar ul {
     width: 100%;
@@ -62,6 +62,7 @@
     position: absolute;
     right: -15px;
     top: -5px;
+    color: rgb(47, 47, 47);
   }
 
   .sidebar {
@@ -88,6 +89,7 @@
     font-size: 24px;
     font-weight: bold;
     opacity: 1;
+    padding-left: 0px;
     transition: all 0.3s ease;
   }
 
